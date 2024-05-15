@@ -1,0 +1,25 @@
+--------Exceções----------
+criar exeções e tratar erros... no java ela trava ou e encerrada
+
+ 
+ Tratamento de Exceções um fluxo não previsto pela aplicações que podemos tratar:
+ 
+ Variaveis Nula = java.lang.NullPointerException
+ Dividir o valor por zero = java.lang.ArithmeticException
+ Erro relacionado a banco de dados = java.lang.SQLEception
+ quando tenta ler ou escrever em um arquivo que não existe = java.lang.FileNotFoundException
+
+ Try / catch - tenta e faz a excessão no catch
+ finally - permite definir o bloco de codigo a ser executado caso tenha um erro
+
+
+import java.util.Locale; 
+import java.util.Scanner; -> fazer leitura
+
+
+
+----- Hierarquia das exceções -------
+capacidade que temos de prever se a exeções são tratadas ou não 
+ao tentar realizar um metodo ele determina se voce deve tratalas ou não checked / unchecked
+
+

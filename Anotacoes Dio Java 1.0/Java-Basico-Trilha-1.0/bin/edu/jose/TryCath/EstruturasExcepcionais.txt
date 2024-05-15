@@ -1,0 +1,6 @@
+--------Exceções----------
+criar exeções e tratar erros... no java ela trava ou e encerrada
+
+ 
+ Tratamento de Exceções um fluxo não previsto pela aplicações que podemos tratar:
+ 

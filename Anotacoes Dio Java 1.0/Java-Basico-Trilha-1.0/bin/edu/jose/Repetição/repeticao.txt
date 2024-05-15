@@ -1,0 +1,44 @@
+Controle de Fluxo de repetições
+
+For / While / Do While
+
+-----------For------------
+Permite que seja testada e incrementada ou decrementada a cada variação.
+for(bloco de inicialização; expressão booleana de validação; bloco de incrementação)
+
+for utilizaremos for - quando você tem um ponto de chegada ja definido
+
+-------for em arrays--------
+
+String alunos[] = {"Felipe","Jonas", "Pedro"}
+for (int x =0 ; x < alunos.length; x++){
+    imprime (alunos[x]);
+}
+
+
+for/each -> interagir elementos do array até o final.
+for(String aluno : alunos){
+    imprime(aluno);
+}
+
+
+break -> interromper
+continue -> interrompe a interação atual- quero que conte de 1 a 5
+coloco um if com um continue dentro ele vai descartar quando entrar no if
+
+for 1 a 5
+if(numero == 3 ) continue
+imprime
+
+vai imprimir 1 2 4 5
+
+
+
+
+---------While--------
+enquanto a condição for valida ele executa, ele sempre valida antes de começar a condições.
+
+
+------ Do While -----
+Faça enquanto, porem ele testa apos executar ao codigo ao menos uma vez 
+

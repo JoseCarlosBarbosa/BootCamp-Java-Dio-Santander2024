@@ -1,0 +1,34 @@
+Estruturas condicionais -> if-else, switch-case
+Estruturas de repetições -> for, while, do-while
+Esturura de exceções: try-catch-finally, thow
+
+
+-------------------------- Condicionais ----------------------------
+Permite a escolha de um grupo de açoes para determinada condições serem feitas.
+
+Ternario -> condições que jogam para dentro de uma variavel uma condiçõe
+
+
+int nota = 5
+String resultado = nota >= 7 ? "aprovado" : nota >= 5 && nota < 7 ? "Recuperação" : "Reprovado"; (if,elseif)
+
+
+--Switch Case--
+
+switch(sigla){
+    case "P" {
+        imprime "pequeno";
+        break;
+    }
+    case "M" {
+        imprime "Medio";
+        break;
+    }
+    case "G" {
+        imprime "Grande";
+        break;
+    }
+}
+
+continue, brak e default
+
